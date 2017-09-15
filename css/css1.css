@@ -1,0 +1,30 @@
+body{
+	background-color: #FFCDB2
+	font-family: "Century Gothic","Arial",sans-serif;
+	margin:0px;
+}
+.h1{
+	background:linear-gradient(#FFB4A2,#E5989B);
+	font-size:2.5em; 
+	padding-top:20px;
+	padding-bottom:20px;
+	margin:0px;
+}
+.con-data{
+	float:left;
+	padding-left:10px;
+	margin:0px;
+}
+#img{
+	float:right;
+}
+#img2 {
+	float:right;
+	height:500px;
+	width:500px;
+}
+#p1 {
+	float:right;
+	height: 400px
+	width:500px;
+}
