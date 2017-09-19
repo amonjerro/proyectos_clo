@@ -1,5 +1,5 @@
 body{
-	background-color: #FFCDB2
+	background-color: #FFCDB2;
 	font-family: "Century Gothic","Arial",sans-serif;
 	margin:0px;
 }
@@ -25,6 +25,6 @@ body{
 }
 #p1 {
 	float:right;
-	height: 400px
+	height: 400px;
 	width:500px;
 }
