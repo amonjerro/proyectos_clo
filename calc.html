@@ -11,11 +11,15 @@
 		        <label for="" class="control-label">Solucion:</label>
 		        <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
 		    </div> 
-
-<div type="button" class="btn btn-default"><button>1</button></div>
-<div type="button" class="btn btn-default"><button>2</button></div>
-<div type="button" class="btn btn-default"><button>3</button></div>
-<div type="button" class="btn btn-default"><button>4</button></div>
+<!-- Imagina cada div como una linea. Queremos que haya cuatro botones por linea, así que considera esta construcción. -->
+<div>
+	<!-- El tipo de boton y las clases de botones es mejor aplicarselas a los botones mismos. De otra forma estamos transformando el div, normalmente un contenedor de renglón, en un contenedor de botón. Esto es un poco ilogico, sobre todo cuando lo que ese boton contiene son otros botones. -->
+	<button type="button" class="btn btn-default">1</button>
+	<button type="button" class="btn btn-default">2</button>
+	<button type="button" class="btn btn-default">3</button>
+	<button type="button" class="btn btn-default">*</button>
+</div>
+<!--¿Como se diferencia de las construcciones debajo?-->
 <div type="button" class="btn btn-default"><button>5</button></div>
 <div type="button" class="btn btn-default"><button>6</button></div>
 <div type="button" class="btn btn-default"><button>7</button></div>
@@ -23,7 +27,7 @@
 <div type="button" class="btn btn-default"><button>9</button></div>
 <div type="button" class="btn btn-default"><button>0</button></div>
 <div type="button" class="btn btn-default"><button>/</button></div>
-<div type="button" class="btn btn-default"><button>*</button></div>
+<div type="button" class="btn btn-default"><button>4</button></div>
 <div type="button" class="btn btn-default"><button>-</button></div>
 <div type="button" class="btn btn-default"><button>+</button></div>
 <div type="button" class="btn btn-default"><button>=</button></div>
